@@ -1,0 +1,58 @@
+# Nielsen's Heuristic Audit
+
+dmv.utah.gov homepage and 3 test task flows 
+
+**Severity Scale:** 
+  0 = no issue
+  1 = cosmetic
+  2 = minor
+  3 = major
+  4 = catastrophe 
+
+  Appointments can only be booked at 6 offices. 
+    Visibility of System Status
+    Recover from Errors
+    Help & Documentation
+    SCORE: 3
+
+
+  Internal vocabulary on primary actions
+    Match Between System & Real World
+    SCORE: 3
+
+  Cluttered, repetitive homepage
+    Aesthetic & Minimalist Design
+    SCORE: 2
+
+  Homepage links open to new tabs on new websites
+    User Control & Freedom
+    Consistency & Standards
+    SCORE: 2
+
+  Renewal form requires only last 8 digits of VIN
+    Error Prevention
+    Recover from Errors
+    SCORE: 2
+
+  "Title Transfer" verbiage for out of state transfers
+    Recognition Rather than Recall
+    Match  
+    SCORE: 2
+
+  CAPTCHA & lengthy reading
+    Flexibility & Efficiency of Use 
+    Aesthetic & Minimalist Design
+    SCORE: 2
+
+  Drivers License is a separate agency
+    Flexibility & Efficiency of Ue
+    Aesthetic & Minimalist Design
+    SCORE: 2
+
+  Lag/Slowness
+    Match
+    Help & Documentation
+    SCORE: 2
+
+
+    
