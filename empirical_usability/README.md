@@ -85,12 +85,41 @@ If the participant withdraws or a technical interruption occurs that ends the se
 Record visible facial expressions, participant's verbal notes about what confused them, physical hesitation, or changes in posture. Be descriptive. Leave fields blank if no observation noted. 
 
 
+## System Usability Scale (SUS
+
+After both tasks and their overall ratings, I will ask each participant to complete the 10-item System Usability Scale.
+I will ask them to rate their overall experience with the Utah DMV website.
+
+The survey will use the 10 statements outlined in the Lab 5 assignment details.
+
+Scale:
+1. Strongly disagree
+2. Disagree
+3. Neither agree nor disagree
+4. Agree
+5. Strongly agree
+
+### Scoring
+
+- For odd-numbered items (1, 3, 5, 7, and 9), subtract 1 from the response.
+- For even-numbered items (2, 4, 6, 8, and 10), subtract the response from 5.
+- Add the 10 adjusted values and multiply the total by 2.5
+
+Form Link: [https://docs.google.com/forms/d/e/1FAIpQLSd1vd_H2oEg2arj5LddQ_k8qCbFrzFEd6g0-8VxSxnAvcS2Gw/viewform?usp=publish-editor](url)
 
 
 
+## Step 5: Accessibility Audit
+- **Explicit Labels - Pass** In Chrome's DevTools, I confirmed that the 1 - Strongly Disagree option uses a '<label for="i6">' that matches the radio input 'id="i6"'
+- **Keyboard Navigation with Visible Focus - Pass** I used tab to move between questions and arrow keys to move between answer options. I could see which option had keyboard focus.
+- **Text contrast - Pass** The response label text had a contrast ratio of 8.5
+- **Missing-response error markup - Pass** When I submitted with a required question left blank, Google Forms displayed "This is a required question." In Chrome's DevTools, I confirmed that the message's parent element uses 'role="alert"'
 
 
 
+## Post =Mortem Reflection
+### 1. Why does the SUS alternate positive and negative statements?
+The SUS alternates statements to help counter acquiescence bias. This is the tendency for the participant to agree with statements regardless of what they say. Alternating could also prevent users from trying to answer "correctly" by the form having no clear bias positive or negative. 
 
-
-   
+## 2. How can moderator cues affect think-aloud results?
+If a moderator nods when a participant hovers near the correct option to move forward, this could help them choose it faster as well as prevent an error click. If the moderator frowns or adjusts when they take a valid path, they could backtrack which would add time and possible errors. To reduce this bias, each task is read as written, body language and tone neutral, and neutral reminders are given to encourage ongoing out loud thinking. Directional hints are recorded as such. 
