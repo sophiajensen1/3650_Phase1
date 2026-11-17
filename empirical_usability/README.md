@@ -68,6 +68,26 @@ Read the scenario again if requested.
 Keep your tone and body language neutral throughout the task, and give feedback after both tasks are finished. 
 
 
+## Step 3: Performance Metrics and Observation Log
+Use one row per participant, per task in the [observation log][usability_logging_sheet.csv]
+Use participant codes (e.g. P01, P02, etc)
+
+| Metric | How to record |
+|---|---|
+| Time on Task ('Task_Time_sec') | Start the timer as soon as you finish the instruction prompt. For Task 1, stop when the participant gives their final office, date, and time selection. For Task 2, stop when they give their answer about what office they could walk in. If they give up, stop the timer and record the reason. |
+| Task success ('Task_Success') | **1** = completed with correct results, no help required. **0.5** completed with correct results, but hint required. **0** = incorrect results or participant gives up. |
+| Error count ('Error_Count') | Count each distinct wrong turn, click that produces no response, or incorrect entry. Record what happened and at what point in the process. Count a repeated error only if the participant makes a separate attempt. |
+| Single Easy Question ('SEQ_1_to_7') | After each task attempt, before any feedback or further hints, ask "Overall, from 1-7 how easy or difficult was this task to finish?" Record one rating from 1 (very difficult) to 7 (very easy). 4 is the midpoint. |
+
+Record any hints and when they are given. 
+If the participant withdraws or a technical interruption occurs that ends the session, record the reason and leave the success score blank.
+
+Record visible facial expressions, participant's verbal notes about what confused them, physical hesitation, or changes in posture. Be descriptive. Leave fields blank if no observation noted. 
+
+
+
+
+
 
 
 
